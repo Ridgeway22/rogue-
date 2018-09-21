@@ -1,0 +1,142 @@
+/***** Base Styles*****/
+body{
+font-family:'Montserrat', sans-serif;
+}
+
+.container{
+  width:1200px;
+  margin: auto;
+}
+
+/****grid****/
+.full-width{
+  width: 1200px;
+  margin: 0 50px 0 50px;
+}
+
+/****header******/
+header{
+padding: 50px 0 20px 0;
+}
+
+header h1{
+font-size: 30px;
+font-family:'Montserrat', sans-serif;
+float: left;
+}
+
+header h1 span{
+color: #77a466;
+}
+
+#top{
+float: right;
+}
+
+nav ul li a{
+font-size: 14px;
+color: #77a466;
+font-family:'Montserrat', sans-serif;
+text-decoration:none;
+text-transform: uppercase;
+}
+
+li{
+display: inline;
+padding: inherit;
+}
+
+#pic{
+border-top: 5px solid #77a466;
+border-bottom: 5px solid #77a466;
+width:1200px;
+}
+
+/******Main Section******/
+
+.half-width h2{
+text-align: left;
+color: #77a466;
+font-family:'Montserrat', sans-serif;
+font-size: 18px;
+text-transform: uppercase;
+padding-top: 50px;
+}
+
+#intro{
+width: 1000px;
+color: #b8b8b8;
+font-size: 16px;
+padding-bottom: 50px;
+}
+
+.third-width nav li{
+display: block;
+text-decoration: none;
+font-size: 16px;
+padding: 10px;
+margin-left: -50px;
+margin-right: 50px;
+color: #77a466;
+}
+
+.third-width{
+color: #b8b8b8;
+padding: 0 ;
+text-align: left;
+margin: 0;
+}
+
+.third-width h4{
+color: black;
+text-transform: uppercase;
+}
+
+#one{
+  float: left;
+  width: 400px;
+  font-size:16px;
+
+  padding: 0 0 47px 0;
+  border-top: 2px solid #dedbdc;
+  border-right: 2px solid #dedbdc;
+  border-bottom: 2px solid #dedbdc;
+}
+#two {
+  float:left;
+  width: 380px;
+  font-size:16px;
+  line-height: 21px;
+  padding: 0px 0 85px 20px;
+  border-top: 2px solid #dedbdc;
+  border-right: 2px solid #dedbdc;
+  border-bottom: 2px solid #dedbdc;
+}
+
+ #three{
+  float: right;
+  width: 200px;
+  font-size: 16px;
+  line-height: 24px;
+  padding:0 124px 123px 72px;
+  border-top: 2px solid #dedbdc;
+  border-bottom: 2px solid #dedbdc;
+}
+
+.third-width h4{
+color: black;
+font-size: 12px;
+}
+
+footer{
+  clear: both;
+  text-align: center;
+  width: 1200px;
+  padding: 36px 450px 36px 0px;
+  text-transform: uppercase;
+}
+
+.footfull-width span{
+  color: #89b07a;
+  font-family: 'Oleo Script', cursive;
+}
